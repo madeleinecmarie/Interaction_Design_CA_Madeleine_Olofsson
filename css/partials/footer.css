@@ -1,0 +1,54 @@
+footer {
+  background-color: var(--green);
+  height: 330px;
+  margin-top: 60px;
+}
+
+.list_container {
+  display: grid;
+  grid-template-areas: "list1 list2";
+  height: 300px;
+  width: 55%;
+}
+
+.list_item1 {
+  grid-area: list1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.list_item2 {
+  grid-area: list2;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.p_footer {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer_ul {
+  font-size: 0.9rem;
+  line-height: 35px;
+  list-style: none;
+}
+
+.footer_ul li a {
+  color: black;
+}
+
+.footer_ul a:hover {
+  text-shadow: 0 0 0.9px #333;
+}
+
+.footer_icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  cursor: pointer;
+}

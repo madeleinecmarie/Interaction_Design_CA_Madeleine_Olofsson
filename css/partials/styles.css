@@ -1,0 +1,185 @@
+.main_index {
+  height: auto;
+}
+
+.hero_container {
+  display: grid;
+  grid-template-areas: "button img img";
+  position: relative;
+  top: 30px;
+  height: 680px;
+}
+
+.hero_img {
+  grid-area: img;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  right: 100px;
+}
+
+.hero_png {
+  height: 600px;
+}
+
+.text_container {
+  grid-area: button;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+}
+
+.hero_text {
+  width: 70%;
+  /* text-align: center; */
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.hero_btn {
+  margin-top: 20px;
+}
+
+.hero_text h1 {
+  font-size: 2.4rem;
+  line-height: 65px;
+}
+
+.hero_text p {
+  font-size: 1.1rem;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  top: 30px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 68%;
+  margin-top: 40px;
+}
+
+.cards {
+  font-size: 0.8rem;
+  width: 260px;
+  height: 320px;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  background-color: var(--bgd);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  /* transition: 0.3s; */
+}
+
+/* .cards:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+} */
+
+.donation_img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.h2_js {
+  margin-top: 10px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+#btn,
+.submitBtn {
+  background-color: var(--green);
+  outline: none;
+  height: 48px;
+  width: 75%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  margin: auto;
+  margin-top: 40px;
+  transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+#btn a,
+.submitBtn a {
+  line-height: 50px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.text_section2 {
+  margin-top: 80px;
+  margin-left: 20px;
+  height: 130px;
+  margin-bottom: 60px;
+}
+
+.h2_section2 {
+  font-size: 1.3rem;
+}
+
+.p_section2 {
+  width: 70%;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  line-height: var(--line_height);
+}
+
+.step_one {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.website_link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-shadow: 0 0 0.9px #333;
+}
+
+/* SECTION 3 */
+
+.section_3 {
+  display: grid;
+  grid-template-areas:
+    "one"
+    "two";
+}
+
+h3 {
+  grid-area: one;
+  align-self: center;
+  justify-self: center;
+  width: 65%;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.cart_div {
+  width: 65%;
+  grid-area: two;
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+}

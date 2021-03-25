@@ -1,0 +1,206 @@
+.h1_donation {
+  font-size: 1.2rem;
+}
+
+.donations_container {
+  display: grid;
+  grid-template-areas:
+    "head"
+    "form"
+    "drop"
+    "amount"
+    "img";
+}
+
+.text_donations {
+  grid-area: head;
+  width: 85%;
+  height: 160px;
+  justify-self: center;
+  margin-top: 80px;
+}
+
+.p_donation {
+  margin-top: 10px;
+}
+
+.radio_div {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-evenly;
+  width: 85%;
+  font-weight: bold;
+  height: 140px;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+}
+
+input[type="radio"]:checked + * {
+  color: var(--green);
+}
+
+#dropDown {
+  height: 40px;
+  width: 14%;
+  border-radius: 14px;
+  border: solid 1px var(--green);
+  box-shadow: var(--shadow);
+  margin-top: 10px;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+#amount {
+  width: 14%;
+  box-shadow: var(--shadow);
+}
+
+#amount:hover,
+#dropDown:hover {
+  background-color: var(--shadow);
+}
+
+.dropdown {
+  grid-area: drop;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 85%;
+  height: 100px;
+}
+
+.amount_two {
+  grid-area: amount;
+  height: 100px;
+  justify-self: center;
+  width: 85%;
+}
+
+.currency_label {
+  margin-left: 10px;
+}
+
+.step_2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.arrows_div {
+  display: grid;
+  grid-template-areas: "empty arrow";
+}
+
+.img_arrows {
+  grid-area: arrow;
+  width: 40%;
+  line-height: 55px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.arrows {
+  height: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 15px;
+}
+
+.arrows:hover {
+  transform: translateY(-3px);
+}
+
+.p_arrows {
+  font-weight: bold;
+}
+
+.height {
+  height: 200px;
+}
+
+.registration_container {
+  display: grid;
+  grid-template-areas: "imaga image registration";
+  margin-top: 240px;
+}
+
+.registration_form {
+  margin-top: 20px;
+}
+
+.registration {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step_3_container {
+  grid-area: registration;
+}
+
+.registration_img_div {
+  grid-area: image;
+  justify-self: center;
+  align-self: center;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.login_img {
+  height: 380px;
+}
+
+h2 .step_3 {
+  font-size: 1.2rem;
+}
+
+.step_3_div {
+  line-height: 50px;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.p_terms {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  width: 85%;
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.login_a {
+  font-weight: bold;
+  color: var(--green);
+}
+
+.login_a:hover {
+  text-shadow: 0 0 0.9px rgba(86, 191, 161);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

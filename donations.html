@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>Charity</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="header_container">
+          <div class="logo">
+            <a class="a_logo" href="/index.html">
+              <!-- <p>Charity</p> -->
+              <p>Giving Tree</p>
+            </a>
+          </div>
+          <ul class="nav_ul">
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="">Who We Are</a></li> -->
+            <li><a href="/donations.html">Charities</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+          <div class="nav_btn">
+            <a href="/login.html"><button class="login_btn">Log in</button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="donations_container">
+        <div class="text_donations">
+          <h1 class="h1_donation">
+            <p class="step_2">Step 2:</p>
+            Choose the amount you would like to donate
+          </h1>
+
+          <div class="p_donation">
+            <p>
+              Remember that no amount are too small, everything will help the
+              charities.
+            </p>
+          </div>
+        </div>
+        <div class="radio_div">
+          <div class="radio_one">
+            <input type="radio" id="one_time" name="gender" value="male" />
+            <label for="one_time">One-Time</label>
+          </div>
+          <div class="radio_two">
+            <input type="radio" id="weekly" name="gender" value="male" />
+            <label for="weekly">Weekly</label>
+          </div>
+          <div class="radio_three">
+            <input type="radio" id="monthly" name="gender" value="male" />
+            <label for="monthly">Monthly</label>
+          </div>
+        </div>
+        <div class="dropdown">
+          <label for="amount">Choose an amount:</label>
+          <select name="amount" id="dropDown">
+            <option></option>
+            <option value="50">50kr</option>
+            <option value="200">200kr</option>
+            <option value="500">500kr</option>
+          </select>
+        </div>
+        <div class="amount_two">
+          <p>Or choose your own amount:</p>
+          <input type="text" name="amount" id="amount" />
+          <label for="amount" class="currency_label">NOK</label>
+        </div>
+      </div>
+      <div class="arrows_div">
+        <div class="img_arrows">
+          <div class="p_arrows">
+            <p class="p_arrows">Next step</p>
+          </div>
+          <a href="#scrolly">
+            <img src="/img/arrows.png" alt="Arrow" class="arrows" />
+          </a>
+        </div>
+      </div>
+      <!-- <div class="height"></div> -->
+      <div class="registration_container">
+        <div class="step_3_container">
+          <div class="step_3_div">
+            <h2 class="step_3">Step 3:</h2>
+            <p class="p_step_3">
+              Please fill out the form, or
+              <a href="/login.html" class="login_a"> log in </a> if you already
+              have an account.
+            </p>
+          </div>
+          <div class="registration_form" id="scrolly">
+            <form class="registration">
+              <p class="error nameError">Please enter your full name</p>
+              <input
+                type="text"
+                name="username"
+                id="user"
+                placeholder="Full Name*"
+              />
+              <p class="error emailError">Please enter a valid email</p>
+              <input
+                type="text"
+                name="email"
+                id="mailaddress"
+                placeholder="Email*"
+              />
+              <p class="error passwordError">
+                Please enter 8 or more characters
+              </p>
+              <input
+                type="password"
+                name="password"
+                id="passw"
+                placeholder="Password*"
+              />
+
+              <div class="submit_div">
+                <button class="submitBtn">Create an account</button>
+              </div>
+              <p class="p_terms">
+                By creating an account, you accept Giving Tree's membership
+                terms and privacy policy.
+              </p>
+            </form>
+          </div>
+
+          <!-- <div class="register">
+            <button class="registerBtn">Register new account</button>
+          </div> -->
+
+          <!-- <div class="forgot_email_div">
+            <a class="forgot_email" href="">Forgot your email?</a>
+          </div> -->
+        </div>
+        <div class="registration_img_div">
+          <img
+            src="/img/login.png"
+            alt="Log in illustration"
+            class="login_img"
+          />
+        </div>
+      </div>
+      <div class="height"></div>
+    </main>
+    <script src="/js/components/alert.js"></script>
+    <script src="/js/donations.js"></script>
+  </body>
+</html>

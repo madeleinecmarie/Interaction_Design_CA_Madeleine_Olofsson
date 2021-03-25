@@ -1,0 +1,102 @@
+.form_div {
+  /* background-color: var(--bgd); */
+  height: 390px;
+  padding: 20px;
+  width: 550px;
+  border-radius: 25px;
+  /* box-shadow: var(--shadow); */
+  margin: auto;
+  margin-top: 120px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 46px;
+  border: solid 1px #56bfa1a9;
+  outline: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="password"] {
+  width: 100%;
+  height: 46px;
+  border: solid 1px #56bfa1a9;
+  outline: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+}
+
+.submitBtn a {
+  line-height: 50px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.loadingDiv {
+  text-align: center;
+  margin-top: 230px;
+}
+
+.hide {
+  display: none;
+}
+
+.h2_welcome {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.welcome {
+  font-size: 1.1rem;
+}
+
+.forgot_email_div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot_email {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.forgot_email:hover {
+  text-shadow: 0 0 0.9px #333;
+}
+
+.regiser_p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.registerBtn {
+  background-color: var(--bgd);
+  outline: none;
+  height: 48px;
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 1px solid var(--green);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  margin: auto;
+  margin-top: 20px;
+  /* transition: 0.3s; */
+  font-family: "Poppins", sans-serif;
+}
+
+.registerBtn:hover {
+  background-color: var(--green);
+  /* transform: translateY(-3px); */
+}
