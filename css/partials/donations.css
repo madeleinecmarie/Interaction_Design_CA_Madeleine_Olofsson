@@ -46,7 +46,7 @@ input[type="radio"]:checked + * {
 }
 
 #dropDown {
-  height: 48px;
+  height: 44px;
   width: 14%;
   border-radius: 14px;
   border: solid 1px var(--green);
@@ -62,12 +62,13 @@ select {
 #amount {
   width: 14%;
   box-shadow: var(--shadow);
+  height: 44px;
 }
 
-#amount:hover,
+/* #amount:hover,
 #dropDown:hover {
   background-color: var(--shadow);
-}
+} */
 
 .dropdown {
   grid-area: drop;
