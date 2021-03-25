@@ -62,7 +62,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 85%;
+  width: 84%;
   margin-top: 40px;
 }
 
@@ -104,7 +104,7 @@
 .submitBtn {
   background-color: var(--green);
   outline: none;
-  height: 48px;
+  height: 44px;
   width: 75%;
   border-radius: 14px;
   box-shadow: var(--shadow);
@@ -170,17 +170,17 @@
     "two";
 }
 
-h3 {
+.h3_donate {
   grid-area: one;
   align-self: center;
   justify-self: center;
-  width: 65%;
+  width: 80%;
   margin-top: 20px;
   font-size: 1.2rem;
 }
 
 .cart_div {
-  width: 65%;
+  width: 80%;
   grid-area: two;
   align-self: center;
   justify-self: center;
