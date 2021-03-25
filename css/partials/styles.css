@@ -62,7 +62,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 85%;
   margin-top: 40px;
 }
 
@@ -71,8 +71,8 @@
   width: 240px;
   height: 320px;
   margin: auto;
-  margin: 5px;
-  padding: 25px;
+  margin-top: 20px;
+  padding: 30px;
   text-align: center;
   background-color: var(--bgd);
   border-radius: 20px;
