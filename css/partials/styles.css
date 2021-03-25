@@ -1,7 +1,6 @@
 .main_index {
   height: auto;
-  width: 100%;
-  margin: auto;
+  width: auto;
 }
 
 .hero_container {
@@ -22,7 +21,7 @@
 }
 
 .hero_png {
-  height: 600px;
+  height: 560px;
 }
 
 .text_container {
