@@ -105,6 +105,7 @@ select {
   line-height: 55px;
   align-self: center;
   justify-self: flex-end;
+  height: 200px;
 }
 
 .arrows {
