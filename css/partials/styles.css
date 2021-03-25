@@ -1,6 +1,6 @@
 .main_index {
   height: auto;
-  width: auto;
+  /* margin: auto; */
 }
 
 .hero_container {
@@ -62,7 +62,8 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 84%;
+  margin: auto;
+  max-width: 66%;
   margin-top: 40px;
 }
 
@@ -174,13 +175,13 @@
   grid-area: one;
   align-self: center;
   justify-self: center;
-  width: 80%;
+  width: 65%;
   margin-top: 20px;
   font-size: 1.2rem;
 }
 
 .cart_div {
-  width: 80%;
+  width: 65%;
   grid-area: two;
   align-self: center;
   justify-self: center;
