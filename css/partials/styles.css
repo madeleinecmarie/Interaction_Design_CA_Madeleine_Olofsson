@@ -1,5 +1,7 @@
 .main_index {
   height: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .hero_container {
