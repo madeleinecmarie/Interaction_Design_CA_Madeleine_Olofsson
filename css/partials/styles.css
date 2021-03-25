@@ -62,7 +62,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 65%;
+  width: 80%;
   margin-top: 40px;
 }
 
@@ -70,7 +70,8 @@
   font-size: 0.8rem;
   width: 240px;
   height: 320px;
-  margin: 10px;
+  margin: auto;
+  margin: 5px;
   padding: 25px;
   text-align: center;
   background-color: var(--bgd);
