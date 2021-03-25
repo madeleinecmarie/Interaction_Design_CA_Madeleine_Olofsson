@@ -15,11 +15,11 @@
   font-size: 0.95rem;
   list-style: none;
   font-weight: bold;
-  height: 90px;
+  height: 110px;
 }
 
 .nav_ul li {
-  margin-top: 34px;
+  margin-top: 43px;
   transition: text-shadow 0.3s;
 }
 
