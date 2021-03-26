@@ -12,8 +12,9 @@ const getDonations = async () => {
        <div class="card">
        <div class="charity_img charity${value.id}"></div>
        <h2 class="h2_charity"> ${value.name}</h2>
-       <p class="p_phone"> Phone: ${value.number}</p>
+       
        <p class="p_desc"> ${value.description}</p>
+       <p class="p_phone"> Phone: ${value.number}</p>
        <p><a class="charity_link" href="${value.link}">Read more on our website: <span class="link_char">${value.link}</span></a></p>
        </div>
        `;
