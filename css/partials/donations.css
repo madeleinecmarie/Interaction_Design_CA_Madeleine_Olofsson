@@ -69,11 +69,6 @@ select {
   height: 44px;
 }
 
-/* #amount:hover,
-#dropDown:hover {
-  background-color: var(--shadow);
-} */
-
 .dropdown {
   grid-area: drop;
   display: flex;
@@ -129,7 +124,7 @@ select {
 }
 
 .height {
-  height: 200px;
+  height: 150px;
 }
 
 .registration_container {

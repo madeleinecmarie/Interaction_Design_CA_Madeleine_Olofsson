@@ -8,16 +8,17 @@ const getDonations = async () => {
         console.log(donations);
 
    donations.forEach((value) => {
-       document.querySelector('.cardsContainer').innerHTML += `
-       <div class="cards">
-       <div class="donation_img donation${value.id}"></div>
-       <h2 class="h2_js"> ${value.name}</h2>
-       <p><a class="website_link" href="${value.link}">Read more on our website: <span class="link">${value.link}</span></a></p>
-       <button id="btn">Select</button>
+       document.querySelector('.container').innerHTML += `
+       <div class="card">
+       <div class="charity_img charity${value.id}"></div>
+       <h2 class="h2_charity"> ${value.name}</h2>
+       <p class="p_desc"> ${value.description}</p>
+       <p><a class="charity_link" href="${value.link}">Read more on our website: <span class="link">${value.link}</span></a></p>
+       <button id="charity_btn">Select</button>
        </div>
        `;
        
-       document.querySelector(`.donation${value.id}`).style.backgroundImage = `url(${value.image})`;
+       document.querySelector(`.charity${value.id}`).style.backgroundImage = `url(${value.image})`;
    });
 
 	} catch (error) {

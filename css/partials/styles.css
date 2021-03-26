@@ -54,7 +54,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  /* margin: auto; */
   max-width: 70%;
   margin-top: 40px;
 }
