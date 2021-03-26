@@ -33,7 +33,6 @@
 
 .hero_text {
   width: 70%;
-  /* text-align: center; */
   line-height: 50px;
   margin-bottom: 40px;
 }
@@ -44,11 +43,11 @@
 
 .hero_text h1 {
   font-size: 2.2rem;
-  line-height: 65px;
+  line-height: 55px;
 }
 
 .hero_text p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .cardsContainer {
@@ -162,13 +161,13 @@
   grid-area: one;
   align-self: center;
   justify-self: center;
-  width: 68%;
+  width: 66%;
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .cart_div {
-  width: 68%;
+  width: 66%;
   grid-area: two;
   align-self: center;
   justify-self: center;
