@@ -7,10 +7,9 @@
 .card {
   font-size: 0.8rem;
   max-width: 390px;
-  height: 380px;
+  height: 520px;
   margin-top: 20px;
   padding: 30px;
-  text-align: center;
 }
 
 .charity_img {
@@ -19,9 +18,58 @@
   margin: auto;
   height: 120px;
   width: 120px;
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .h2_charity {
   margin-bottom: 20px;
+  text-align: center;
 }
+
+.p_phone {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.p_desc {
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.charity_link {
+  color: black;
+  margin-left: 30px;
+}
+
+.link_char {
+  margin-left: 30px;
+}
+
+.link_char:hover {
+  text-shadow: 0 0 0.9px #333;
+}
+
+/* #charity_btn {
+  background-color: var(--green);
+  outline: none;
+  height: 44px;
+  width: 35%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  font-weight: bold;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  margin: auto;
+  margin-top: 40px;
+  transition: 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+#charity_btn:hover {
+} */
+
+/* <button id="charity_btn">Select</button> */

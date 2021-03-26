@@ -88,7 +88,8 @@
 }
 
 #btn,
-.submitBtn {
+.submitBtn,
+#charity_btn {
   background-color: var(--green);
   outline: none;
   height: 44px;
