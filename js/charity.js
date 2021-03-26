@@ -1,3 +1,4 @@
+document.querySelector('.loading').innerHTML = `<img src="/img/loading_gif2.gif" />`;
 const donationUrl = 'https://noroffcors.herokuapp.com/https://jsonkeeper.com/b/CH8F/';
 
 
@@ -30,7 +31,9 @@ const getDonations = async () => {
           );
           console.log(error);
 
-	}
-}
+        } finally {
+            document.querySelector('.loading').classList.add('hide');
+        }
+    }
 
 getDonations();
