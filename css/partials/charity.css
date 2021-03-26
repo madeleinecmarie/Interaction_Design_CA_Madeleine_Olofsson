@@ -1,3 +1,27 @@
 .container {
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  font-size: 0.8rem;
+  max-width: 430px;
+  height: 380px;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.charity_img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 120px;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.h2_charity {
+  margin-bottom: 20px;
 }
