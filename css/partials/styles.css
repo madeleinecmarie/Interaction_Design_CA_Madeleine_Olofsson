@@ -1,6 +1,5 @@
 .main_index {
   height: auto;
-  /* margin: auto; */
 }
 
 .hero_container {
@@ -44,19 +43,13 @@
 }
 
 .hero_text h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 65px;
 }
 
 .hero_text p {
   font-size: 1.1rem;
 }
-
-/* .banner {
-  width: 100%;
-  position: relative;
-  top: 30px;
-} */
 
 .cardsContainer {
   margin: auto;
@@ -78,13 +71,7 @@
   background-color: var(--bgd);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  /* transition: 0.3s; */
 }
-
-/* .cards:hover {
-  transform: translateY(-3px);
-  cursor: pointer;
-} */
 
 .donation_img {
   background-size: contain;
@@ -136,7 +123,7 @@
 }
 
 .h2_section2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .p_section2 {
@@ -147,7 +134,7 @@
 }
 
 .step_one {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
