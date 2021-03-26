@@ -130,7 +130,7 @@ select {
 
 .registration_container {
   display: grid;
-  grid-template-areas: "image image registration";
+  grid-template-areas: "image image image registration";
   margin-top: 240px;
 }
 
@@ -139,7 +139,7 @@ select {
 }
 
 .registration {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,12 +153,12 @@ select {
   grid-area: image;
   justify-self: center;
   align-self: center;
-  width: 70%;
+  width: 60%;
   margin-top: 20px;
 }
 
 .login_img {
-  height: 380px;
+  height: 360px;
 }
 
 .step_3 {
