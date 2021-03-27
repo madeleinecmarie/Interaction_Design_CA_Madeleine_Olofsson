@@ -118,13 +118,12 @@ select {
 .arrow_right,
 .arrow_left {
   height: 42px;
-  transition: 0.3s;
 }
-
+/* 
 .arrow_right:hover,
 .arrow_left:hover {
   transform: translateY(-3px);
-}
+} */
 
 .step_2 {
   font-size: 1.3rem;
