@@ -37,7 +37,7 @@
   width: 85%;
   font-weight: bold;
   height: 140px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 input[type="radio"] {
@@ -89,113 +89,87 @@ select {
   margin-left: 10px;
 }
 
+.icon_container {
+  /* display: grid; */
+  /* display: flex;
+  justify-content: space-between;
+  width: 80%; */
+  display: grid;
+  grid-template-areas: "icons1 nothing1 nothing2 icons2";
+  margin: auto;
+  margin-top: 70px;
+  transition: 0.3s;
+}
+
+.icon_1 {
+  grid-area: icons1;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  justify-self: center;
+  width: 70%;
+}
+
+.icon_2 {
+  grid-area: icons2;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  justify-self: flex-start;
+  width: 90%;
+}
+
+.arrow_right,
+.arrow_left {
+  height: 42px;
+}
+
+.arrow_right:hover,
+.arrow_left:hover {
+  transform: translateY(-3px);
+}
+
 .step_2 {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
-.arrows_div {
+.payment_container {
   display: grid;
-  grid-template-areas: "empty arrow";
-}
-
-.img_arrows {
-  grid-area: arrow;
-  width: 40%;
-  line-height: 47px;
-  margin-bottom: 20px;
-  align-self: center;
-  justify-self: flex-end;
-}
-
-.arrows {
-  height: 50px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 20px;
-}
-
-.arrows:hover {
-  transform: translateY(-3px);
-}
-
-.p_arrows {
-  font-weight: bold;
-}
-
-.height {
-  height: 150px;
-}
-
-.registration_container {
-  display: grid;
-  grid-template-areas: "image image image registration";
-  margin-top: 240px;
-}
-
-.registration_form {
-  margin-top: 20px;
-}
-
-.registration {
-  width: 75%;
+  grid-template-areas:
+    "payment"
+    "method";
+  width: 35%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
-.step_3_container {
-  grid-area: registration;
+.payment {
+  grid-area: payment;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
 }
 
-.registration_img_div {
-  grid-area: image;
-  justify-self: center;
-  align-self: center;
-  width: 70%;
-  margin-top: 20px;
-}
-
-.login_img {
-  height: 360px;
-}
-
-.step_3 {
-  font-size: 1.3rem;
-}
-
-.step_3_div {
-  line-height: 50px;
-}
-
-input::placeholder {
-  color: black;
-  font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
-  padding: 10px;
-}
-
-.p_terms {
-  font-size: 0.8rem;
-  margin-top: 20px;
-  width: 85%;
-  margin-left: 10px;
-}
-
-.error {
-  color: red;
-  display: none;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-
-.login_a {
+.p_payment {
+  font-size: 1rem;
   font-weight: bold;
-  color: var(--green);
 }
 
-.login_a:hover {
-  text-shadow: 0 0 0.9px rgba(86, 191, 161);
+.method_container {
+  grid-area: method;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.payment_method {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 0.9rem;
 }
 
 .hide {

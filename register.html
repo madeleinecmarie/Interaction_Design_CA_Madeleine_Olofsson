@@ -10,10 +10,6 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    /> -->
     <title>Giving Tree</title>
   </head>
   <body>
@@ -22,14 +18,12 @@
         <div class="header_container">
           <div class="logo">
             <a class="a_logo" href="/index.html">
-              <!-- <p>Charity</p> -->
               <p>GivingTree</p>
             </a>
           </div>
           <ul class="nav_ul">
             <li><a href="index.html">Home</a></li>
-            <!-- <li><a href="">Who We Are</a></li> -->
-            <li><a href="/donations.html">Charities</a></li>
+            <li><a href="charity.html">Charities</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
           <div class="nav_btn">
@@ -38,5 +32,72 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="registration_container">
+        <div class="step_3_container">
+          <div class="step_3_div">
+            <h2 class="step_3">Step 3:</h2>
+            <p class="p_step_3">
+              Please fill out the form, or
+              <a href="/login.html" class="login_a"> log in </a> if you already
+              have an account.
+            </p>
+          </div>
+          <div class="registration_form" id="scrolly">
+            <form class="registration">
+              <p class="error nameError">Please enter your full name</p>
+              <input
+                type="text"
+                name="username"
+                id="user"
+                placeholder="Full Name*"
+              />
+              <p class="error emailError">Please enter a valid email</p>
+              <input
+                type="text"
+                name="email"
+                id="mailaddress"
+                placeholder="Email*"
+              />
+              <p class="error passwordError">
+                Please enter 8 or more characters
+              </p>
+              <input
+                type="password"
+                name="password"
+                id="passw"
+                placeholder="Password*"
+              />
+              <div class="submit_div">
+                <button class="submitBtn">Create an account</button>
+              </div>
+              <p class="p_terms">
+                By creating an account, you accept GivingTree's membership terms
+                and privacy policy.
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="registration_img_div">
+          <img
+            src="/img/login.png"
+            alt="Log in illustration"
+            class="login_img"
+          />
+        </div>
+      </div>
+      <div class="icon__1">
+        <a href="/donations.html">
+          <img
+            src="/img/arrow-pointing-to-left.png"
+            alt="Arrow pointing to left"
+            class="arrow_left_2"
+          />
+        </a>
+        <div class="paragraph_back">
+          <p class="p_back">Back</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

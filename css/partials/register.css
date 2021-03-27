@@ -1,0 +1,102 @@
+.registration_container {
+  display: grid;
+  grid-template-areas: "image image image registration";
+  margin-top: 120px;
+}
+
+.registration_form {
+  margin-top: 20px;
+}
+
+.registration {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step_3_container {
+  grid-area: registration;
+}
+
+.registration_img_div {
+  grid-area: image;
+  justify-self: center;
+  align-self: center;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.login_img {
+  height: 360px;
+}
+
+.step_3 {
+  font-size: 1.3rem;
+}
+
+.step_3_div {
+  line-height: 50px;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.p_terms {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  width: 85%;
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.login_a {
+  font-weight: bold;
+  color: var(--green);
+}
+
+.login_a:hover {
+  text-shadow: 0 0 0.9px rgba(86, 191, 161);
+}
+
+.arrow_left_2 {
+  height: 42px;
+}
+
+.icon__1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 90%;
+  margin: auto;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+
+.arrow_left_2:hover {
+  transform: translateY(-3px);
+}
+
+.paragraph_back,
+.p_arrow_right,
+.p_arrow_left {
+  margin-top: 10px;
+  /* margin-left: 20px; */
+}
+
+.p_back,
+.p_arrow_right,
+.p_arrow_left {
+  font-weight: bold;
+  font-size: 1.1rem;
+}

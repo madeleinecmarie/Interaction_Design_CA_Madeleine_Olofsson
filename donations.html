@@ -23,7 +23,7 @@
           </div>
           <ul class="nav_ul">
             <li><a href="index.html">Home</a></li>
-            <li><a href="/donations.html">Charities</a></li>
+            <li><a href="charity.html">Charities</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
           <div class="nav_btn">
@@ -76,79 +76,44 @@
           <label for="amount" class="currency_label">NOK</label>
         </div>
       </div>
-      <div class="arrows_div">
-        <div class="img_arrows">
-          <div class="p_arrows">
-            <p class="p_arrows">Next step</p>
+      <div class="payment_container">
+        <div class="payment">
+          <p class="p_payment">Choose your payment method:</p>
+        </div>
+      </div>
+      <div class="method_container">
+        <div class="payment_method">
+          <p>Paypal</p>
+          <p>Card</p>
+          <p>Vipps</p>
+        </div>
+      </div>
+      <div class="icon_container">
+        <div class="icon_1">
+          <a href="/index.html">
+            <img
+              src="/img/arrow-pointing-to-left.png"
+              alt="Arrow pointing to left"
+              class="arrow_left"
+            />
+          </a>
+          <div class="p_arrow_left">
+            <p class="p_left_2">Back</p>
           </div>
-          <a href="#scrolly">
-            <img src="/img/arrows.png" alt="Arrow" class="arrows" />
+        </div>
+        <div class="icon_2">
+          <div class="p_arrow_right">
+            <p class="p_right_2">Next step</p>
+          </div>
+          <a href="/register.html">
+            <img
+              src="/img/arrow-pointing-to-right.png"
+              alt="Arrow pointing to right"
+              class="arrow_right"
+            />
           </a>
         </div>
       </div>
-      <!-- <div class="height"></div> -->
-      <div class="registration_container">
-        <div class="step_3_container">
-          <div class="step_3_div">
-            <h2 class="step_3">Step 3:</h2>
-            <p class="p_step_3">
-              Please fill out the form, or
-              <a href="/login.html" class="login_a"> log in </a> if you already
-              have an account.
-            </p>
-          </div>
-          <div class="registration_form" id="scrolly">
-            <form class="registration">
-              <p class="error nameError">Please enter your full name</p>
-              <input
-                type="text"
-                name="username"
-                id="user"
-                placeholder="Full Name*"
-              />
-              <p class="error emailError">Please enter a valid email</p>
-              <input
-                type="text"
-                name="email"
-                id="mailaddress"
-                placeholder="Email*"
-              />
-              <p class="error passwordError">
-                Please enter 8 or more characters
-              </p>
-              <input
-                type="password"
-                name="password"
-                id="passw"
-                placeholder="Password*"
-              />
-              <div class="submit_div">
-                <button class="submitBtn">Create an account</button>
-              </div>
-              <p class="p_terms">
-                By creating an account, you accept GivingTree's membership terms
-                and privacy policy.
-              </p>
-            </form>
-          </div>
-
-          <!-- <div class="register">
-            <button class="registerBtn">Register new account</button>
-          </div> -->
-
-          <!-- <div class="forgot_email_div">
-            <a class="forgot_email" href="">Forgot your email?</a>
-          </div> -->
-        </div>
-        <div class="registration_img_div">
-          <img
-            src="/img/login.png"
-            alt="Log in illustration"
-            class="login_img"
-          />
-        </div>
-      </div>
-      <div class="height"></div>
     </main>
     <script src="/js/components/alert.js"></script>
     <script src="/js/donations.js"></script>
