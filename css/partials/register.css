@@ -1,7 +1,7 @@
 .registration_container {
   display: grid;
   grid-template-areas: "image image image registration";
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .registration_form {

@@ -97,7 +97,7 @@ select {
   display: grid;
   grid-template-areas: "icons1 nothing1 nothing2 icons2";
   margin: auto;
-  margin-top: 70px;
+  margin-top: 50px;
   transition: 0.3s;
 }
 
