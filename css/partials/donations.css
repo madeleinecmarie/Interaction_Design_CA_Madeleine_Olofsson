@@ -171,11 +171,3 @@ select {
   margin-top: 20px;
   font-size: 0.9rem;
 } */
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}

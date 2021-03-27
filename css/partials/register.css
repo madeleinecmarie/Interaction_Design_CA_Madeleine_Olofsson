@@ -53,13 +53,6 @@ input::placeholder {
   margin-left: 10px;
 }
 
-.error {
-  color: red;
-  display: none;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-
 .login_a {
   font-weight: bold;
   color: var(--green);
@@ -97,4 +90,19 @@ input::placeholder {
 .p_arrow_left {
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+.error {
+  color: red;
+  display: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

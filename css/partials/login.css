@@ -1,10 +1,8 @@
 .form_div {
-  /* background-color: var(--bgd); */
   height: 390px;
   padding: 20px;
   width: 550px;
   border-radius: 25px;
-  /* box-shadow: var(--shadow); */
   margin: auto;
   margin-top: 120px;
 }
@@ -73,10 +71,10 @@ input[type="password"] {
   text-shadow: 0 0 0.9px #333;
 }
 
-.regiser_p {
+/* .regiser_p {
   text-align: center;
   margin-top: 10px;
-}
+} */
 
 .registerBtn {
   background-color: var(--bgd);
@@ -92,11 +90,9 @@ input[type="password"] {
   letter-spacing: 0.5px;
   margin: auto;
   margin-top: 20px;
-  /* transition: 0.3s; */
   font-family: "Poppins", sans-serif;
 }
 
 .registerBtn:hover {
   background-color: var(--green);
-  /* transform: translateY(-3px); */
 }
