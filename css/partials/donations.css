@@ -90,10 +90,6 @@ select {
 }
 
 .icon_container {
-  /* display: grid; */
-  /* display: flex;
-  justify-content: space-between;
-  width: 80%; */
   display: grid;
   grid-template-areas: "icons1 nothing1 nothing2 icons2";
   margin: auto;
@@ -122,6 +118,7 @@ select {
 .arrow_right,
 .arrow_left {
   height: 42px;
+  transition: 0.3s;
 }
 
 .arrow_right:hover,
