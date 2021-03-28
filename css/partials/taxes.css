@@ -32,12 +32,11 @@
 
 .h2_tax {
   font-size: 1.1rem;
-  height: 60px;
+  height: 80px;
 }
 
 .tax_cards {
   width: 60%;
-  /* justify-self: center; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -47,7 +46,6 @@
   font-size: 0.8rem;
   width: 190px;
   height: 140px;
-  margin-top: 20px;
   padding: 30px;
   text-align: center;
   background-color: var(--bgd);
@@ -59,6 +57,6 @@
 .p_tax_card {
   color: var(--green);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 65px;
 }
