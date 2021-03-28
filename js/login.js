@@ -2,7 +2,6 @@ const username = document.querySelector('#username');
 const password = document.querySelector('#password');
 const btn = document.querySelector('.submitBtn');
 
-
 btn.onclick = function (event) {
     event.preventDefault();
     const user = username.value;
