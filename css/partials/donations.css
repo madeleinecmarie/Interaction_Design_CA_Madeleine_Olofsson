@@ -1,11 +1,13 @@
 .h1_donation {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  height: 60px;
 }
 
 .donations_container {
   display: grid;
   grid-template-areas:
     "head"
+    /* "donation" */
     "form"
     "drop"
     "amount"
@@ -15,10 +17,18 @@
 .text_donations {
   grid-area: head;
   width: 85%;
-  height: 140px;
+  height: 180px;
   justify-self: center;
   margin-top: 30px;
-  margin-bottom: 20px;
+}
+.p_donations_div {
+  margin-top: 60px;
+}
+
+.p_don,
+.p_char {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .p_donation {
@@ -28,6 +38,30 @@
   font-size: 0.9rem;
 }
 
+.p_selected_charity {
+  margin-top: 20px;
+}
+
+/* .selected_charity_div {
+  height: 60px;
+} */
+
+.edit_icon_div {
+  display: flex;
+  justify-content: space-around;
+  width: 5%;
+  margin-top: 40px;
+}
+
+.p_edit {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.edit_icon {
+  height: 20px;
+}
+
 .radio_div {
   grid-area: form;
   display: flex;
@@ -35,9 +69,15 @@
   justify-self: center;
   justify-content: space-evenly;
   width: 85%;
-  font-weight: bold;
-  height: 140px;
+  /* font-weight: bold; */
+  height: 360px;
   margin-bottom: 10px;
+}
+
+label[for="one_time"],
+label[for="weekly"],
+label[for="monthly"] {
+  font-weight: bold;
 }
 
 input[type="radio"] {
@@ -80,9 +120,13 @@ select {
 
 .amount_two {
   grid-area: amount;
-  height: 100px;
+  height: 140px;
   justify-self: center;
   width: 85%;
+}
+
+.p_amount {
+  font-size: 1rem;
 }
 
 .currency_label {
@@ -95,6 +139,7 @@ select {
   margin: auto;
   margin-top: 50px;
   transition: 0.3s;
+  height: 100px;
 }
 
 .icon_1 {
@@ -126,11 +171,6 @@ select {
   transform: translateY(-3px);
 }
 
-.step_2 {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-/* 
 .payment_container {
   display: grid;
   grid-template-areas:
@@ -167,4 +207,5 @@ select {
   width: 80%;
   margin-top: 20px;
   font-size: 0.9rem;
-} */
+  height: 60px;
+}

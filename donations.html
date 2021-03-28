@@ -35,19 +35,30 @@
     <main>
       <div class="donations_container">
         <div class="text_donations">
-          <h1 class="h1_donation">
-            <p class="step_2">Step 2:</p>
-            Choose the amount you would like to donate
-          </h1>
-
-          <div class="p_donation">
-            <p>
-              Remember that no amount are too small, everything will help the
-              charities. It's more about the action of donating something.
-            </p>
+          <h1 class="h1_donation">Step 2:</h1>
+          <p class="p_char">Charities you have selected:</p>
+          <div class="selected_charity_div">
+            <p class="p_selected_charity">ACTA - BARN OG UNGE I NORMISJON</p>
+          </div>
+          <div class="edit_icon_div">
+            <div>
+              <p class="p_edit">Edit</p>
+            </div>
+            <img src="/img/edit.png" alt="Edit Icon" class="edit_icon" />
           </div>
         </div>
+
         <div class="radio_div">
+          <div class="p_donations_div">
+            <p class="p_don">Choose the amount you would like to donate</p>
+
+            <div class="p_donation">
+              <p>
+                Remember that no amount are too small, everything will help the
+                charities. It's more about the action of donating something.
+              </p>
+            </div>
+          </div>
           <div class="radio_one">
             <input type="radio" id="one_time" name="gender" value="male" />
             <label for="one_time">One-Time</label>
@@ -71,12 +82,12 @@
           </select>
         </div>
         <div class="amount_two">
-          <p>Or choose your own amount:</p>
+          <p class="p_amount">Or choose your own amount:</p>
           <input type="text" name="amount" id="amount" />
-          <label for="amount" class="currency_label">NOK</label>
+          <label for="amounts" class="currency_label">NOK</label>
         </div>
       </div>
-      <!-- <div class="payment_container">
+      <div class="payment_container">
         <div class="payment">
           <p class="p_payment">Choose your payment method:</p>
         </div>
@@ -87,7 +98,7 @@
           <p>Card</p>
           <p>Vipps</p>
         </div>
-      </div> -->
+      </div>
       <div class="icon_container">
         <div class="icon_1">
           <a href="/index.html#target">

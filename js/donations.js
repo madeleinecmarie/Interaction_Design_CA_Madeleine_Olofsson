@@ -41,6 +41,8 @@ submit.onclick = function (event) {
     console.log(name);
     console.log(email);
     console.log(password);
+
+	submit.onclick=parent.location='taxes.html';
 };
 
 function validateEmail(emailAddy) {
