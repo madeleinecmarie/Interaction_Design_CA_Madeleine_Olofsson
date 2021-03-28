@@ -164,13 +164,13 @@
   grid-area: one;
   align-self: center;
   justify-self: center;
-  width: 66%;
+  width: 70%;
   margin-top: 20px;
   font-size: 1.1rem;
 }
 
 .cart_div {
-  width: 66%;
+  width: 70%;
   grid-area: two;
   align-self: center;
   justify-self: center;
