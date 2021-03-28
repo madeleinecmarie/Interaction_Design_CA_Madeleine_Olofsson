@@ -36,7 +36,7 @@
 }
 
 .tax_cards {
-  width: 70%;
+  width: 60%;
   /* justify-self: center; */
   display: flex;
   flex-direction: row;
