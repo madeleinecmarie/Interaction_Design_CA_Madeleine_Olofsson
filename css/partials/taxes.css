@@ -10,7 +10,7 @@
   width: 85%;
   justify-self: center;
   margin-top: 40px;
-  height: 260px;
+  height: 230px;
 }
 
 .h1_tax {
@@ -22,6 +22,10 @@
   font-weight: bold;
   font-size: 1rem;
   height: 50px;
+}
+
+.p_specific_charity {
+  font-size: 0.9rem;
 }
 
 .tax_card_container {
@@ -40,13 +44,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 300px;
 }
 
 .tax_card {
   font-size: 0.8rem;
-  width: 190px;
-  height: 140px;
-  padding: 30px;
+  width: 180px;
+  height: 130px;
+  padding: 40px;
   text-align: center;
   background-color: var(--bgd);
   border-radius: 20px;
@@ -59,4 +64,15 @@
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 65px;
+}
+
+.p_takeme_home {
+  text-align: center;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.p_takeme_home:hover {
+  text-shadow: 0 0 0.65px #333;
+  text-decoration: underline;
 }
