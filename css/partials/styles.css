@@ -7,6 +7,7 @@
   grid-template-areas: "button img img";
   position: relative;
   height: 660px;
+  width: 100%;
 }
 
 .hero_img {
@@ -19,7 +20,7 @@
 }
 
 .hero_png {
-  height: 550px;
+  height: 540px;
 }
 
 .text_container {
@@ -28,7 +29,8 @@
   justify-self: center;
   align-self: center;
   position: relative;
-  width: 60%;
+  left: 10%;
+  top: 5%;
 }
 
 .hero_text {
