@@ -1,0 +1,64 @@
+.tax_container {
+  display: grid;
+  grid-template-areas:
+    "tax1"
+    "tax2";
+}
+
+.tax_text_container {
+  grid-area: tax1;
+  width: 85%;
+  justify-self: center;
+  margin-top: 40px;
+  height: 260px;
+}
+
+.h1_tax {
+  font-size: 1.3rem;
+  height: 90px;
+}
+
+.p_charities_don {
+  font-weight: bold;
+  font-size: 1rem;
+  height: 50px;
+}
+
+.tax_card_container {
+  grid-area: tax2;
+  width: 85%;
+  justify-self: center;
+}
+
+.h2_tax {
+  font-size: 1.1rem;
+  height: 60px;
+}
+
+.tax_cards {
+  width: 50%;
+  /* justify-self: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tax_card {
+  font-size: 0.8rem;
+  width: 190px;
+  height: 140px;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+  background-color: var(--bgd);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  display: flex;
+}
+
+.p_tax_card {
+  color: var(--green);
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 65px;
+}
